@@ -1,0 +1,150 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://localhost/web/images/tlojpg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+
+h1 { 
+	color: #ffffff; 
+	font-size: 100px;
+	font-weight: 800;
+	line-height: 72px;
+	text-align: center;
+	text-transform: uppercase; 
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 60px;
+  text-decoration: none;
+  font-size: 30px;
+  text-transform: uppercase; 
+}
+
+.nav a:hover {
+  background-color: #20489e;
+  color: black;
+}
+
+
+
+hr {
+width: 80%;
+height: 8px;
+margin-left: auto;
+margin-right: auto;
+background-color:#ffffff;
+border: 0 none;
+margin-top: 0px;
+margin-bottom:0px;
+}
+
+div#content {
+    display: table-cell;
+    width: 100%;
+    border-radius: 0px;
+    background-color: #333;
+    padding: 30px;
+}
+
+h2 { 
+	color: #ffffff; 
+	font-size: 45px;
+	font-weight: 800;
+	line-height: 72px;
+	margin: 0 0px 40px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 50px;
+
+}
+
+h3 { 
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: center; 
+}
+
+p {
+	color: #f8f8f8;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 32px;
+	margin: 20 20 24px; 
+	text-align: center;
+	padding: 0px 200px 0px 200px;
+}
+
+
+
+p2 {
+	color: #f8f8f8;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 32px;
+	margin: 20 20 24px; 
+	text-align: center;
+	padding: 0px 200px 0px 200px;
+}
+
+footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #333;
+  text-align: center;
+}
+
+
+div2 {
+	width: 500px;
+	}
+label {
+	line-height: 30px;
+
+	}
+label input, label textarea {
+	position: center;
+	float: center;
+	border: 2px black solid;
+	padding: 8px;
+	}
+textarea {
+	width: 350px;
+	}
+input[type="submit"] {
+	float: center;
+	clear: both;
+	}
+button {
+	float: center;
+	}
